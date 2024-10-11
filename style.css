@@ -242,8 +242,8 @@ span {
     width: 15px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--main-color);
-    width: 30px;
+    background-color: gray;
+    width: 25px;
 }
 
 
@@ -256,7 +256,7 @@ span {
     grid-template-columns: repeat(auto-fit, minmax(350px, auto) );
     align-items: center;
     gap: 2.3rem;
-    margin-top: 4.2rem;
+    margin-top: 3.5rem;
 }
 .row {
     background: var(--second-bg-color);
@@ -269,7 +269,7 @@ span {
 .row img {
     height: auto;
     width: 100%;
-    border-radius: 28px;
+    border-radius: 10px;
     margin-bottom: 1.4rem;
 }
 
@@ -281,20 +281,20 @@ span {
 
  }
  .row h5 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 550;
     color: var(--text-color);
  }
  .row i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 55px;
-    height: 55px;
-    font-size: 27px;
-    border-radius: 50px;
-    color: var(--bg-color);
-    background: #075fe4;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    border-radius: 26px;
+    color: rgb(0, 135, 246);
+    background: #000000;
 
  }
  .row h4 {
@@ -304,10 +304,10 @@ span {
     line-height: 1.4;
  }
   .row:hover {
-    transform: scale(1.1) translateY(-8px);
-    background-color: rgb(0, 102, 128);
+    transform: scale(1.05) translateY(-7px);
+    background-color: rgb(74, 164, 108);
     color: var(--text-color);
-    box-shadow: 0 0 15px var(--main-color);
+    box-shadow: 0 0 15px skyblue;
 
 } 
 .text {
@@ -317,7 +317,7 @@ span {
     color: rgb(201, 181, 181)
 }
 .education {
-    background: rgb(27, 37, 37);
+    background: rgba(17, 66, 49, 0.096)
 }
 .education-content {
     display: grid;
@@ -456,6 +456,8 @@ span {
 
 @media (max-width: 1285px){
     html {
+        background-color: #001;
+
 
     }
 
@@ -546,7 +548,7 @@ span {
     }
 }
 #skills{
-    background: rgb(34, 35, 1);
+    background: rgb(205, 205, 195);
 }
 .row-skills:hover {
     transform: scale(1.2) translateY(12px);
@@ -570,20 +572,18 @@ span {
 
 }
 .exp-content {
-    padding-left: 0px;
+    padding-left: 5px;
     float: right;
     width: 85%;
-    font-size: 15px;
+    font-size: 12px;
 }
-/* .pro {
-    line-height: 3;
-    font-size: 20px;
-} */
 
-/* 
-.size{
-   
-    padding-right: 25px;
-   
-    margin: 30px;
-} */
+.ex {
+background: var(--second-bg-color);
+border-radius: 28px;
+border: 1px solid transparent;
+box-shadow: 0 0 5px var(--main-color);
+padding: 20px;
+transition: all 0.3s ease ;
+  
+}
