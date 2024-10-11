@@ -135,7 +135,7 @@ span {
 }
 
 .home-img img {
-    width: 30vw;
+    width: 50vw;
     border: 1px solid blue;
     border-radius: 51% 49% 48% 52% / 49% 49% 51% 51%;
     
@@ -185,11 +185,11 @@ span {
 .btn {
     display: inline-flex;
     padding: 1rem 2.8rem;
-    background: rgb(12, 11, 18);
+    background: rgb(0, 218, 69);
     border-radius: 4rem;
     box-shadow: none;
     font-size: 1.6rem;
-    color: rgba(16, 17, 16, 0.838);
+    color: rgba(87, 21, 9, 0.838);
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.3s ease;
