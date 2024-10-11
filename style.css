@@ -14,7 +14,7 @@
     --bg-color: #001;
     --second-bg-color: #112;
     --text-color: #fff;
-    --main-color: rgba(35, 137, 135, 0.838);
+    --main-color: rgba(35, 106, 137, 0.838);
 
 
 
@@ -54,7 +54,7 @@ header {
     font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
-    background: -webkit-linear-gradient(#001eff, #00ffae);
+    background: -webkit-linear-gradient(#1d2035, #636765);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -185,7 +185,7 @@ span {
 .btn {
     display: inline-flex;
     padding: 1rem 2.8rem;
-    background: rgb(142, 140, 156);
+    background: rgb(12, 11, 18);
     border-radius: 4rem;
     box-shadow: none;
     font-size: 1.6rem;
@@ -562,8 +562,8 @@ span {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .experience2-img img {
-    height: 10%;
-    width: 13%;
+    height: 8%;
+    width: 9%;
     border-radius: 5px;
     margin-bottom: 1rem;
 
@@ -573,7 +573,7 @@ span {
     padding-left: 0px;
     float: right;
     width: 85%;
-    font-size: 20px;
+    font-size: 15px;
 }
 /* .pro {
     line-height: 3;
