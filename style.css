@@ -304,10 +304,10 @@ span {
     line-height: 1.4;
  }
   .row:hover {
-    transform: scale(1.2) translateY(-8px);
-    background-color: rgb(0, 30, 128);
+    transform: scale(1.1) translateY(-8px);
+    background-color: rgb(0, 102, 128);
     color: var(--text-color);
-    box-shadow: 0 0 20px var(--main-color);
+    box-shadow: 0 0 15px var(--main-color);
 
 } 
 .text {
@@ -358,4 +358,189 @@ span {
     transition: all 0.3 ease;
     
      
+}
+
+.row-pub:hover {
+    transform: scale(0.8) translateY(-6px);
+    background-color: rgb(36, 69, 125);
+    color: rebeccapurple;
+    box-shadow: 0 0 20px var(--main-color);
+
+} 
+.contact {
+    background: var(--second-bg-color);
+}
+.contact h2 {
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+.contact form {
+    max-width: 90rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 0.8rem;
+    border: 1px solid var(--main-color);
+    margin: 0.7rem 0;
+    resize: none;
+
+
+}
+.contact form .input-box input {
+    width: 49%;
+    margin: 0.7rem 0.35rem;
+}
+.contact form .btn {
+    margin-top: 2rem;
+}
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: var(--bg-color);
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--main-color);
+}
+.footer .social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+}
+.footer .social a:hover {
+    transform: scale(1.2) translateY(-8px);
+    background: greenyellow;
+    color: var(--main-color);
+    box-shadow: 0 0 20px var(--second-bg-color);
+
+}
+.footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+
+
+/* Responsive  */
+
+@media (max-width: 1285px){
+    html {
+
+    }
+
+
+}
+
+@media (max-width: 991px){
+    header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    footer {
+        padding: 2rem 3%;
+    }
+}
+@media (max-width: 786px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: rgba(0,0,0,0.9);
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+
+    }
+    .navbar a {
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navbar.active {
+        right: 0;
+
+    }
+    .home {
+        flex-direction: column;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-content {
+        order: 2; 
+       }
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .content form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 617px){
+    .home-img img {
+        width: 80vw;
+        margin-top: 8rem;
+    }
+    .home-img img {
+        width: 80vw;
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 426px){
+    .heading {
+        font-size: 5rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
 }
