@@ -527,6 +527,7 @@ span {
     }
 }
 
+
 @media (max-width: 617px){
     .home-img img {
         width: 80vw;
@@ -544,3 +545,45 @@ span {
         margin: 2rem 0;
     }
 }
+#skills{
+    background: rgb(34, 35, 1);
+}
+.row-skills:hover {
+    transform: scale(1.2) translateY(12px);
+    background-color: rgb(0, 0, 0);
+    color: rgb(5, 109, 109);
+    box-shadow: 0 0 15px rgb(71, 58, 25);
+}
+.experience {
+    background: var(--second-bg-color);
+}
+.experience-img {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.experience2-img img {
+    height: 10%;
+    width: 13%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+
+}
+.exp-content {
+    padding-left: 0px;
+    float: right;
+    width: 85%;
+    font-size: 20px;
+}
+/* .pro {
+    line-height: 3;
+    font-size: 20px;
+} */
+
+/* 
+.size{
+   
+    padding-right: 25px;
+   
+    margin: 30px;
+} */
