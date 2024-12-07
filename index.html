@@ -470,9 +470,40 @@
             &copy; Abdul Kaium Shohug | All rights reserved
           </p>
         </footer>
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+
+const url = "https://api.coalitiontechnologies.com/patientdata"; // Replace with the actual endpoint
+const token = "YOUR_ACCESS_TOKEN"; // Replace with your access token
+
+fetch(url, {
+    method: "GET",
+    headers: {
+        "Authorization": `Bearer ${token}`,
+        "Content-Type": "application/json",
+    },
+})
+.then(response => {
+    if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+})
+.then(data => {
+    console.log(data); // Handle the patient data here
+})
+.catch(error => {
+    console.error('Error fetching data:', error);
+});
+
+        </script>
         <script src="script.js"></script>
 
+        
+
     <!-- <script src="script.js"></script> -->
+
+    <section>
+      <h1>Projects:</h1>
+    </section>
   </body>
 </html>
